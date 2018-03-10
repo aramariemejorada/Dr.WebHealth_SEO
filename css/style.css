@@ -1,12 +1,56 @@
 li:hover{
     background-color: rgba(255, 255, 255, .5);
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-color: white;
+}
     
 }
 li:active{
     border-bottom-style: solid;
+    border-bottom-width: 3px;
     border-color: white;
 }
-#category:hover{
-    opacity: 0.5;
+.category:hover{
     width: 20%;
 }
+.jumbotron{
+    background-image: url("../images/header-bg.png");
+    background-size: cover;
+    height: 100%;
+
+
+}
+@media (max-width: 1024px) {
+    .jumbotron {
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+      background-repeat: no-repeat;
+     }  
+}
+@media (max-width: 768px) {
+    .jumbotron {
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+      background-repeat: no-repeat;
+     }  
+}
+@media (max-width: 600px) {
+    .jumbotron {
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+      background-repeat: no-repeat;
+     }  
+}
+@media (min-width: 576px){}
+.jumbotron {
+    padding: 5rem 2rem;
+    background-color: #5adcc2;
+}
+  
