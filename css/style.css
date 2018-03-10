@@ -6,20 +6,11 @@
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 li:hover{
-    background-color: rgba(255, 255, 255, .5);
-    border-bottom-style: solid;
-    border-bottom-width: 3px;
-    border-color: white;
-}
-    
-}
-li:active{
-    border-bottom-style: solid;
-    border-bottom-width: 3px;
-    border-color: white;
+    box-shadow: inset 0px -4px 0 #FFFFFF;
+    font-weight: bolder;
 }
 .category:hover{
-    width: 20%;
+    width: 20%;a
 }
 .jumbotron{
     background-image: url("../images/header-bg.png");
@@ -33,7 +24,7 @@ li:active{
 }
 @media (max-width: 1024px) {
     #img-title{
-        margin: 25px 0 0 50px; 
+        margin: 25px 0 0 30px; 
     }
     .jumbotron {
       -webkit-background-size: cover;
