@@ -38,10 +38,10 @@ $(document).ready(function(){
                             <a class="nav-link" href="#" style="color: white">About Us</a>
                         </li>
                         <li class="nav-item" style="padding: 0 15px;">
-                            <a class="nav-link" href="#" style="color: white">FAQs</a>
+                            <a class="nav-link" href="faqs.html" style="color: white">FAQs</a>
                         </li>
                         <li class="nav-item" style="padding: 0 15px;">
-                            <a class="nav-link" href="#" style="color: white">Contact Us</a>
+                            <a class="nav-link" href="contact.html" style="color: white">Contact Us</a>
                         </li>
                     </ul>
                 </div>
