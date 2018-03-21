@@ -10,12 +10,32 @@ html,body
     font-family: 'head-text';
     src: url(file://C:/Users/Dwane/Dr.WebHealth_SEO/fonts/GothamBold.ttf);
 }
+.head-text{
+    font-family: "head-text";
+}
 .body-text{
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
-li:hover{
+.nav li:hover{
     box-shadow: inset 0px -4px 0 #FFFFFF;
     font-weight: bolder;
+}
+ul{
+    margin: none;
+    padding-left: 0;
+}
+li{
+    list-style-type: none;
+    padding: 2% 0;
+}
+#footer-link li:hover{
+    color: #000000;
+    font-weight: bolder;
+    
+}
+#footer-link{
+   color: #000000; 
+   text-decoration: none;
 }
 .category:hover{
     width: 20%;a
