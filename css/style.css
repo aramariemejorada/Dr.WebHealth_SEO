@@ -4,7 +4,7 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 @font-face {
     font-family: 'head-text';
@@ -38,7 +38,7 @@ li{
    text-decoration: none;
 }
 .category:hover{
-    width: 20%;a
+    width: 20%;
 }
 .jumbotron{
     background-image: url("../images/header-bg.png");
@@ -48,11 +48,11 @@ li{
 
 }
 #img-title{
-    margin: 25px 0 0 50px; 
+    margin: 25px 0 0 50px;
 }
 @media (max-width: 1024px) {
     #img-title{
-        margin: 25px 0 0 30px; 
+        margin: 25px 0 0 30px;
     }
     .jumbotron {
       -webkit-background-size: cover;
@@ -60,7 +60,12 @@ li{
       -o-background-size: cover;
       background-size: cover;
       background-repeat: no-repeat;
-     }  
+     }
+
+    #contact_logo{
+        max-width: 100%;
+        margin: 20% 30% 30% 30%;
+    }
 }
 @media (max-width: 768px) {
     #head{
@@ -79,7 +84,12 @@ li{
       -o-background-size: contain;
       background-size: contain;
       background-repeat: no-repeat;
-     }  
+     }
+
+    #contact_logo {
+        max-width: 70%;
+    }
+
 }
 @media (max-width: 600px) {
     #head-title{
@@ -95,11 +105,38 @@ li{
       -o-background-size: contain;
       background-size: contain;
       background-repeat: no-repeat;
-     }  
+     }
 }
 
-@media (min-width: 576px){}
-.jumbotron {
-    padding: 4rem 0rem;
-    background-color: #5adcc2;
+@media (min-width: 576px){
+    .jumbotron {
+        padding: 4rem 0rem;
+        background-color: #5adcc2;
+    }
 }
+
+@media (min-width: 425px){
+    .jumbotron {
+        padding: 4rem 0rem;
+        background-color: #5adcc2;
+    }
+
+    #contact_text {
+        padding: 7% 10% 5% 10%;
+    }
+}
+
+@media (min-width: 1440px){
+    #contact_logo {
+        max-width: 100%;
+        margin: 10% 30% 0% 30%;
+    }
+
+    #contact_text {
+        padding: 5% 10% 5% 2%;
+    }
+}
+
+
+
+
