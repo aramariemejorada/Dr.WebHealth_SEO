@@ -66,6 +66,22 @@ li{
         max-width: 100%;
         margin: 20% 30% 30% 30%;
     }
+    #about{
+        padding-top: 15px;
+        padding-bottom: 50px;
+    }
+    #about_logo{
+        max-width: 100%;
+    }
+    #about-head{
+        padding-top: 100px;
+        padding-left: 25px;
+    }
+    .about-body{
+        padding-right: 100px;
+        padding-left: 25px;
+    }
+
 }
 @media (max-width: 768px) {
     #head{
@@ -89,6 +105,20 @@ li{
     #contact_logo {
         max-width: 70%;
     }
+    #about{
+        padding-top: 15px;
+        padding-bottom: 50px;
+    }
+    #about_logo{
+        max-width: 100%;
+    }
+    #about-head{
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+    .about-body{
+        padding-right: 20px;
+    }
 
 }
 @media (max-width: 600px) {
@@ -106,6 +136,20 @@ li{
       background-size: contain;
       background-repeat: no-repeat;
      }
+     #about{
+        padding-top: 15px;
+        padding-bottom: 50px;
+    }
+    #about_logo{
+        max-width: 100%;
+    }
+    #about-head{
+        text-align: center;
+    }
+    .about-body{
+        text-align: center;
+    }
+
 }
 
 @media (min-width: 576px){
@@ -135,6 +179,23 @@ li{
     #contact_text {
         padding: 5% 10% 5% 2%;
     }
+    #about{
+        padding-top: 15px;
+        padding-bottom: 50px;
+    }
+    #about_logo{
+        max-width: 100%;
+        padding-left: 120px;
+    }
+    #about-head{
+        padding-top: 100px;
+        padding-left: 50px;
+    }
+    .about-body{
+        padding-right: 300px;
+        padding-left: 50px;
+    }
+
 }
 
 
