@@ -23,8 +23,7 @@ $(document).ready(function(){
     <!-- local bootstrap -->
     <link rel="stylesheet" type ="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type ="text/css" href="css/style.css">
-	<link rel="icon" type="image/gif/png/ico" href="images/site-logo.png">
-    <title>Dr. WebHealth</title>`;
+	<link rel="icon" type="image/gif/png/ico" href="images/site-logo.png">`;
     var navigation = `
     <div class="row">
         <div class="container-fluid" style="background-color: #5adcc2; margin: 0">
@@ -71,8 +70,8 @@ $(document).ready(function(){
             </div>
         </div>
     </div>`;
-    $('#footnote').append(footnote);
-    $('#head').append(head_tags);
-    $('#navigation').append(navigation);
-    $('#banner').append(banner);
+    $('.footnote').append(footnote);
+    $('.head-tags').append(head_tags);
+    $('.navigation').append(navigation);
+    $('.banner').append(banner);
 });
