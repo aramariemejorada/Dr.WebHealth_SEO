@@ -20,6 +20,10 @@ html,body
     box-shadow: inset 0px -4px 0 #FFFFFF;
     font-weight: bolder;
 }
+.active{
+    box-shadow: inset 0px -4px 0 #FFFFFF;
+    font-weight: bolder; 
+}
 ul{
     margin: none;
     padding-left: 0;

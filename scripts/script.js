@@ -26,21 +26,21 @@ $(document).ready(function(){
 	<link rel="icon" type="image/gif/png/ico" href="images/site-logo.png">`;
     var navigation = `
     <div class="row">
-        <div class="container-fluid" style="background-color: #5adcc2; margin: 0">
+        <div id="nav" class="container-fluid" style="background-color: #5adcc2; margin: 0">
             <nav class="nav">
                 <div class="container">
                     <ul class="nav justify-content-center body-text ">
                         <li class="nav-item" style="padding: 0 15px;">
-                            <a class="nav-link" href="index.html" style="color: white">Home</a>
+                            <a id="nav_home" class="nav-link" href="index.html" style="color: white">Home</a>
                         </li>
                         <li class="nav-item" style="padding: 0 15px;">
-                            <a class="nav-link" href="about.html" style="color: white">About Us</a>
+                            <a id="nav_about" class="nav-link" href="about.html" style="color: white">About Us</a>
                         </li>
                         <li class="nav-item" style="padding: 0 15px;">
-                            <a class="nav-link" href="faqs.html" style="color: white">FAQs</a>
+                            <a id="nav_faq" class="nav-link" href="faqs.html" style="color: white">FAQs</a>
                         </li>
                         <li class="nav-item" style="padding: 0 15px;">
-                            <a class="nav-link" href="contact.html" style="color: white">Contact Us</a>
+                            <a id="nav_contact" class="nav-link" href="contact.html" style="color: white">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -109,7 +109,7 @@ $(document).ready(function(){
             <h6 style="color: #5b2e33" class="head-text">Contact Information</h6>
             <ul class="body-text">
                 <small>
-                    <li>Bo. Obrero, Iñigo St. Davao City, Philippines 8000</li>
+                    <li>Bo. Obrero, Inigo St. Davao City, Philippines 8000</li>
                 </small>
             </ul>
         </div>
@@ -119,4 +119,14 @@ $(document).ready(function(){
     $('.navigation').append(navigation);
     $('.banner').append(banner);
     $('.additional-info').append(additionalInfo);
+
+    var url = window.location.pathname; //sets the variable "url" to the pathname of the current window
+    var activePage = url.substring(url.lastIndexOf('/') + 1); //sets the variable "activePage" as the substring after the last "/" in the "url" variable
+    $('.nav li a').each(function () { //looks in each link item within the primary-nav list
+        var linkPage = this.href.substring(this.href.lastIndexOf('/') + 1); //sets the variable "linkPage" as the substring of the url path in each &lt;a&gt;
+
+        if (activePage == linkPage) { //compares the path of the current window to the path of the linked page in the nav item
+            $(this).parent().addClass('active'); //if the above is true, add the "active" class to the parent of the &lt;a&gt; which is the &lt;li&gt; in the nav list
+        }
+    });
 });
