@@ -87,9 +87,9 @@ $(document).ready(function(){
             <h6 style="color: #5b2e33" class="head-text">Health Issues</h6>
             <ul class="body-text">
                 <small>
-                    <a id="footer-link" href="https://www.nbcnews.com/storyline/smart-facts/what-zika-virus-what-you-need-know-n860551" target="_blank"><li>Zika Virus</li></a>
-                    <a id="footer-link" href="https://www.medicalnewstoday.com/articles/280598.php" target="_blank"><li>Ebola Virus</li></a>
-                    <a id="footer-link" href="https://www.aarp.org/health/conditions-treatments/info-2018/virus-mimics-flu-fd.html" target="_blank"><li>Adenoviruses</li></a>
+                    <a id="footer-link" href="https://www.nbcnews.com/storyline/smart-facts/what-zika-virus-what-you-need-know-n860551"><li>Zikka Virus</li></a>
+                    <a id="footer-link" href="https://www.medicalnewstoday.com/articles/280598.php"><li>Ebola Virus</li></a>
+                    <a id="footer-link" href="https://www.aarp.org/health/conditions-treatments/info-2018/virus-mimics-flu-fd.html"><li>Adenoviruses</li></a>
                 </small>
             </ul>
         </div>
