@@ -25,28 +25,27 @@ $(document).ready(function(){
     <link rel="stylesheet" type ="text/css" href="css/style.css">
 	<link rel="icon" type="image/gif/png/ico" href="images/site-logo.png">`;
     var navigation = `
-    <div class="row">
-        <div id="nav" class="container-fluid" style="background-color: #5adcc2; margin: 0">
-            <nav class="nav">
-                <div class="container">
-                    <ul class="nav justify-content-center body-text ">
-                        <li class="nav-item" style="padding: 0 15px;">
+            <nav id="nav_size" class="navbar bg-dark navbar-dark navbar-expand-md" style="width: 100%; padding: 0;">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse  justify-content-center" id="collapsibleNavbar">
+                    <ul class="nav body-text">
+                        <li class="nav-item">
                             <a id="nav_home" class="nav-link" href="index.html" style="color: white">Home</a>
                         </li>
-                        <li class="nav-item" style="padding: 0 15px;">
+                        <li class="nav-item">
                             <a id="nav_about" class="nav-link" href="about.html" style="color: white">About Us</a>
                         </li>
-                        <li class="nav-item" style="padding: 0 15px;">
+                        <li class="nav-item">
                             <a id="nav_faq" class="nav-link" href="faqs.html" style="color: white">FAQs</a>
                         </li>
-                        <li class="nav-item" style="padding: 0 15px;">
+                        <li class="nav-item">
                             <a id="nav_contact" class="nav-link" href="contact.html" style="color: white">Contact Us</a>
                         </li>
                     </ul>
-                </div>
-            </nav>
-        </div>
-    </div>`;
+                </div> 
+            </nav>`;
     var banner = `
     <div class="container" style="margin-top: 5px">
         <div class="row">

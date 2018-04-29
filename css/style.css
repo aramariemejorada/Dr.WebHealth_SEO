@@ -16,6 +16,9 @@ html,body
 .body-text{
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
+.bg-dark {
+    background-color: #5ed9c5!important;
+}
 .nav li:hover{
     box-shadow: inset 0px -4px 0 #FFFFFF;
     font-weight: bolder;
@@ -156,30 +159,27 @@ li{
 
 }
 
-@media (min-width: 576px){
+@media (max-width: 576px){
     .jumbotron {
         padding: 4rem 0rem;
         background-color: #5adcc2;
     }
 }
 
-@media (min-width: 425px){
+@media (max-width: 425px){
     .jumbotron {
         padding: 4rem 0rem;
         background-color: #5adcc2;
     }
-
     #contact_text {
         padding: 7% 10% 5% 10%;
     }
 }
-
 @media (min-width: 1440px){
     #contact_logo {
         max-width: 100%;
         margin: 10% 30% 0% 30%;
     }
-
     #contact_text {
         padding: 5% 10% 5% 2%;
     }
