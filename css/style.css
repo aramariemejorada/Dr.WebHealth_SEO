@@ -78,7 +78,10 @@ li{
 
     #contact_logo{
         max-width: 100%;
-        margin: 20% 30% 30% 30%;
+        margin: 15% 30% 0 40%;
+    }
+    #contact_text{
+        padding: 100px 0;
     }
     #about{
         padding-top: 15px;
@@ -118,6 +121,10 @@ li{
 
     #contact_logo {
         max-width: 70%;
+        margin: 15% 30% 0 25%;
+    }
+    #contact_text{
+        padding: 70px 0 0 0;
     }
     #about{
         padding-top: 15px;
@@ -171,6 +178,14 @@ li{
         padding: 4rem 0rem;
         background-color: #5adcc2;
     }
+    #contact_logo{
+        margin: 15% 30% 0 20%;
+    }
+    #contact_text{
+        padding: 25px;
+        text-align: center;
+        margin-left: 10%;
+    }
     #faq_img{
         display: none;
     }
@@ -181,9 +196,6 @@ li{
         padding: 4rem 0rem;
         background-color: #5adcc2;
     }
-    #contact_text {
-        padding: 7% 10% 5% 10%;
-    }
 
 }
 @media (min-width: 1440px){
@@ -192,7 +204,7 @@ li{
     }
     #contact_logo {
         max-width: 100%;
-        margin: 10% 30% 0% 30%;
+        margin: 6% 30% 0% 60%;
     }
     #contact_text {
         padding: 5% 10% 5% 2%;

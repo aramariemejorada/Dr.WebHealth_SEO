@@ -109,6 +109,8 @@ $(document).ready(function(){
             <ul class="body-text">
                 <small>
                     <address>Bo. Obrero, Inigo St. Davao City, Philippines 8000</address>
+                    <tel>(082)255-2615</tel>
+                    <p>drwebhealth@gmail.com</p>
                 </small>
             </ul>
         </div>
