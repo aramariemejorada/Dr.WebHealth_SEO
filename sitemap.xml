@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+      <loc>http://www.webhealth.com/index.html</loc>
+      <changefreq>daily</changefreq>
+   </url>
+ 	<url>
+      <loc>http://www.webhealth.com/articles.html</loc>
+      <changefreq>daily</changefreq>
+   </url>
+   <url>
+      <loc>http://www.webhealth.com/about.html</loc>
+   </url>
+   <url>
+      <loc>http://www.webhealth.com/contact.html</loc>
+   </url>
+   <url>
+      <loc>http://www.webhealth.com/faqs.html</loc>
+      <changefreq>daily</changefreq>
+   </url>
+   <url>
+      <loc>https://www.nbcnews.com/storyline/smart-facts/what-zika-virus-what-you-need-know-n860551</loc>
+   </url>
+   <url>
+      <loc>https://www.medicalnewstoday.com/articles/280598.php</loc>
+   </url>
+   <url>
+      <loc>https://www.aarp.org/health/conditions-treatments/info-2018/virus-mimics-flu-fd.html</loc>
+   </url>
+   
+</urlset> 
