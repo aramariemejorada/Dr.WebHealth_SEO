@@ -109,7 +109,7 @@ $(document).ready(function(){
             <h6 style="color: #5b2e33" class="head-text">Contact Information</h6>
             <ul class="body-text">
                 <small>
-                    <li>Bo. Obrero, Inigo St. Davao City, Philippines 8000</li>
+                    <address>Bo. Obrero, Inigo St. Davao City, Philippines 8000</address>
                 </small>
             </ul>
         </div>
@@ -120,13 +120,33 @@ $(document).ready(function(){
     $('.banner').append(banner);
     $('.additional-info').append(additionalInfo);
 
-    var url = window.location.pathname; //sets the variable "url" to the pathname of the current window
-    var activePage = url.substring(url.lastIndexOf('/') + 1); //sets the variable "activePage" as the substring after the last "/" in the "url" variable
-    $('.nav li a').each(function () { //looks in each link item within the primary-nav list
-        var linkPage = this.href.substring(this.href.lastIndexOf('/') + 1); //sets the variable "linkPage" as the substring of the url path in each &lt;a&gt;
+    var url = window.location.pathname; 
+    var activePage = url.substring(url.lastIndexOf('/') + 1); 
+    $('.nav li a').each(function () { 
+        var linkPage = this.href.substring(this.href.lastIndexOf('/') + 1); 
 
-        if (activePage == linkPage) { //compares the path of the current window to the path of the linked page in the nav item
-            $(this).parent().addClass('active'); //if the above is true, add the "active" class to the parent of the &lt;a&gt; which is the &lt;li&gt; in the nav list
+        if (activePage == linkPage) { 
+            $(this).parent().addClass('active'); 
         }
     });
+    $('#respiratory_row').hide();
+    $('#reproductive_row').hide();
+    $('#mental_row').hide();
+    $('#heart_row').hide();
+    $('#kidney_row').hide();
+
+    if(location.hash=="#lungs"){
+        $('#respiratory_row').show();
+    }else if(location.hash=="#reproductive"){
+        $('#reproductive_row').show();
+    }else if(location.hash=="#mental"){
+        $('#mental_row').show();
+    }else if(location.hash=="#heart"){
+        $('#heart_row').show();
+    }else if(location.hash=="#kidney"){
+        $('#kidney_row').show();
+    }else{
+
+    }
+        
 });
