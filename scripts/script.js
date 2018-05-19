@@ -57,16 +57,6 @@ $(document).ready(function(){
                     </div>
                 </div>
             </div>
-            <div class="col-md-3" style="margin-top: 10px">
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Search">
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button">
-                            <span class="glyphicons glyphicons-search"></span>
-                        </button>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>`;
     var additionalInfo = `
